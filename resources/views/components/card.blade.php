@@ -1,5 +1,6 @@
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
         <img class="rounded-t-lg" src="{{ $imgsrc }}" alt="" />
     </a>
     <div class="p-5">

@@ -13,7 +13,7 @@ class AdminController extends Controller
 
     public function pemesananadmin()
     {
-        return view('pages.pemesananadmin');
+        return view('pages.pemesanan_admin');
     }
     public function mobiladmin()
     {

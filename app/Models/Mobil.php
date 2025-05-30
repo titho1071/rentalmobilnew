@@ -9,4 +9,5 @@ class Mobil extends Model
 {
     use HasFactory;
     protected $table = 'tblmobil';
+    public $timestamps = false;
 }

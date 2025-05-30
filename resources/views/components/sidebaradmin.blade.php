@@ -6,7 +6,7 @@
       </a>
     </li>
     <li>
-      <a href="{{ route('pemesananadmin') }}" class="flex items-center px-4 py-3 bg-white text-black rounded-md font-medium hover:bg-gray-200">
+      <a href="{{ route('pemesanan_admin') }}" class="flex items-center px-4 py-3 bg-white text-black rounded-md font-medium hover:bg-gray-200">
         <i class="fas fa-file-alt mr-3"></i> Pemesanan
       </a>
     </li>

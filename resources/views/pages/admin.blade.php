@@ -6,7 +6,7 @@
   <div class="pt-[10px] px-4 max-w-7xl mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
       <!-- Card 1 -->
-      <a href="{{ route('pemesananadmin') }}" class="no-underline">
+      <a href="{{ route('pemesanan_admin') }}" class="no-underline">
         <div class="rounded-lg bg-[#3498db] text-white p-5 shadow">
           <i class="fa fa-book text-1xl"></i>
           <div class="flex justify-between items-center">

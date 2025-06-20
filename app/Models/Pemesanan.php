@@ -15,7 +15,19 @@ class Pemesanan extends Model
     public $timestamps = false;
 
     protected $fillable = [
-        'status',
-        // tambahkan field lain di sini jika perlu di-update di masa depan
-    ];
+    'id_penyewaan',
+    'nama_penyewa',
+    'kode_mobil',
+    'email',
+    'alamat',
+    'no_telepon',
+    'tanggal_pengambilan',
+    'tanggal_pengembalian',
+    'alamat_pengambilan',
+    'no_rekening_penjual',
+    'total_pembayaran',
+    'foto_bukti_bayar',
+    'foto_ktp',
+    'status',
+];
 }

@@ -17,12 +17,13 @@ class CreateTblPemesananTable extends Migration
             $table->string('kode_mobil');
             $table->string('email');
             $table->text('alamat');
-            $table->date('tanggal_pengambilan')->nullable();
-            $table->date('tanggal_pengembalian')->nullable();
+            $table->text('no_telepon');
+            $table->date('tanggal_pengambilan');
+            $table->date('tanggal_pengembalian');
             $table->string('alamat_pengambilan');
             $table->string('no_rekening_penjual');
-            $table->decimal('total_pembayaran', 15, 2);
-            $table->string('bukti_pembayaran')->nullable();
+            $table->decimal('total_pembayaran');
+            $table->string('bukti_pembayaran');
 
             // Kolom enum untuk status
             $table->enum('status', ['Menunggu', 'Konfirmasi', 'Batal'])->default('Menunggu');

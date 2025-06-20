@@ -15,6 +15,7 @@
           <th class="p-3 border">KODE MOBIL</th>
           <th class="p-3 border">EMAIL</th>
           <th class="p-3 border">ALAMAT</th>
+          <th class="p-3 border">NO TELEPON</th>
           <th class="p-3 border">TANGGAL PENGAMBILAN</th>
           <th class="p-3 border">TANGGAL PENGEMBALIAN</th>
           <th class="p-3 border">TEMPAT</th>
@@ -34,6 +35,7 @@
           <td class="p-3 border">{{ $item->kode_mobil }}</td>
           <td class="p-3 border">{{ $item->email }}</td>
           <td class="p-3 border">{{ $item->alamat }}</td>
+          <td class="p-3 border">{{ $item->no_telepon }}</td>
           <td class="p-3 border">{{ $item->tanggal_pengambilan }}</td>
           <td class="p-3 border">{{ $item->tanggal_pengembalian }}</td>
           <td class="p-3 border">{{ $item->alamat_pengambilan }}</td>
